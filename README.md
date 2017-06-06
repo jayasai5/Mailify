@@ -1,3 +1,6 @@
+# Mailify
+The is an eclipse plugin that lets you copy code from the editor to gmail with the syntax highlighting intact
+
 This project is built using Eclipse Tycho (https://www.eclipse.org/tycho/) and requires at least maven 3.0 (http://maven.apache.org/download.html) to be built via CLI. 
 Simply run :
 
