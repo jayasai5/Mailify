@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="Mailify.core.ui.category"
+            id="Mailify.java.ui.commands.copyTextForMailing"
+            name="Copy For Mailing">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler	
+            class="eclipse_plugin.Mailify.core.CopyJavaTextForMailing"
+            commandId="Mailify.java.ui.commands.copyTextForMailing">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="Mailify.java.ui.commands.copyTextForMailing"
+            contextId="org.eclipse.jdt.ui.javaEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.ui.popup.any?endof=group.copy">
+         <command
+               commandId="Mailify.java.ui.commands.copyTextForMailing"
+               label="Copy For Mailing"
+               mnemonic="M">
+         </command>
+      </menuContribution>
+   </extension>
+</plugin>

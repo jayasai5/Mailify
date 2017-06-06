@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/Mailify.feature_0.0.0.jar" id="Mailify.feature" version="0.0.0">
+    <category name="Mailify"/>
+   </feature>
+   <feature url="features/Mailify.feature.source_0.0.0.jar" id="Mailify.feature.source" version="0.0.0">
+    <category name="Mailify Developer Resources"/>
+   </feature>
+</site>

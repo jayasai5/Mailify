@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mailify Core Plugin
+Bundle-ClassPath: ., lib/java-prettify-2.0.1.jar
+Bundle-SymbolicName: Mailify.core;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: eclipse_plugin.Mailify.core.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text;bundle-version="3.11.2"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

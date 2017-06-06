@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='20170601-1020.Default' version='1.0.0.0-3cjm0vE7E7AY7U7A3A7E7'>
+    <properties size='3'>
+      <property name='org.eclipse.equinox.p2.name' value='Uncategorized'/>
+      <property name='org.eclipse.equinox.p2.description' value='Default category for otherwise uncategorized features'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='20170601-1020.Default' version='1.0.0.0-3cjm0vE7E7AY7U7A3A7E7'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='Mailify.feature.feature.group' range='[0.0.1.20170601-1020,0.0.1.20170601-1020]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='Mailify.feature.source.feature.group' range='[0.0.1.20170601-1020,0.0.1.20170601-1020]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>
